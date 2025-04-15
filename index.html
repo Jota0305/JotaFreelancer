@@ -4,10 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jota Freelancer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,400;0,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" href="css/style.css" as="style" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
+
   <body>
     <header>
-      <h1>Jose Tasilla Freelancer</h1>
+      <h1 class="titulo">Jose Tasilla <span>Freelancer</span></h1>
     </header>
 
     <nav>
@@ -152,7 +161,33 @@
     <section>
       <h2>Contacto</h2>
       <form action="">
-        
+        <fieldset>
+          <legend>Contactame llenando tus datos</legend>
+
+          <div>
+            <label for="">Nombre</label>
+            <input type="text" placeholder="Nombre" />
+          </div>
+
+          <div>
+            <label for="">Telefono</label>
+            <input type="tel" placeholder="Numero Telefonico" />
+          </div>
+
+          <div>
+            <label for="">Correo</label>
+            <input type="email" placeholder="Correo Electronico" />
+          </div>
+
+          <div>
+            <label for="">Mensaje</label>
+            <textarea name="" id=""></textarea>
+          </div>
+
+          <div>
+            <input type="submit" value="Enviar" />
+          </div>
+        </fieldset>
       </form>
     </section>
 
