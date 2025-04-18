@@ -148,7 +148,7 @@ h1, h2, h3{
     background-image: url(../img/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 350px;
+    height: 400px;
     position: relative;
     margin-bottom: 2rem;
 }
@@ -181,10 +181,11 @@ h1, h2, h3{
 
 .contenedor,
 .navegacion-principal,
-.formulario{
+.formulario-scroll{
     scroll-snap-align: center;
     scroll-snap-stop: always;
 }
+
 
 
 /**Servicios*/
