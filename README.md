@@ -1,2 +1,2 @@
 -Link:
-[JotaFreelancer](jotafreelancer0.netlify.app)
+[JotaFreelancer](https://jotafreelancer0.netlify.app)
